@@ -3,6 +3,14 @@ body {
     font-family: "Montserrat";
 }
 
+/* html { */
+/*   background: url("../images/bg2.jpg") no-repeat center center fixed; */ 
+/*   -webkit-background-size: cover; */
+/*   -moz-background-size: cover; */
+/*   -o-background-size: cover; */
+/*   background-size: cover; */
+/* } */
+
 :root {
     --primary-color: #bea257;
 }
@@ -817,8 +825,6 @@ footer.fold-footer .navy-top {
 /* blog */
 
 .fold-blog.jumbotron {
-    background: url("../images/blog-bg.jpg") no-repeat center / cover;
-    padding: 115px 0 90px;
 }
 
 .fold-blog.jumbotron .fold-content {
@@ -828,6 +834,7 @@ footer.fold-footer .navy-top {
 }
 
 .fold-blog.jumbotron .fold-content>header {
+    padding-top: 40px;
     font-family: Montserrat;
     font-size: 40px;
     font-weight: bold;
@@ -885,23 +892,17 @@ footer.fold-footer .navy-top {
     line-height: normal;
 }
 
-.fold-blog.jumbotron .blogitem a {
-    background: #848484;
+.fold-blog.jumbotron a {
+    background: var(--primary-color);
+    display: inline-block;
     font-family: Montserrat;
     font-size: 15px;
     font-weight: bold;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.67;
-    letter-spacing: 0.9px;
     text-align: center;
     color: #ffffff;
-    text-transform: uppercase;
-    margin: 0 30px;
-    width: auto;
-    display: block;
-    padding: 10px 0;
-    transition: 0.3s ease;
+    width: 180px;
+    padding: 12px 0;
+    margin: 60px 0 50px 10px;
 }
 
 .fold-blog.jumbotron .blogitem a:hover {
@@ -913,17 +914,17 @@ footer.fold-footer .navy-top {
     text-align: center;
 }
 
-.fold-blog.jumbotron .bloglink a {
-    font-family: Montserrat;
-    font-size: 21px;
-    font-weight: normal;
-    font-stretch: normal;
-    font-style: normal;
-    line-height: 1.71;
-    letter-spacing: 1.26px;
-    text-align: center;
-    color: #171717;
-}
+/* .fold-blog.jumbotron .bloglink a { */
+/*     font-family: Montserrat; */
+/*     font-size: 21px; */
+/*     font-weight: normal; */
+/*     font-stretch: normal; */
+/*     font-style: normal; */
+/*     line-height: 1.71; */
+/*     letter-spacing: 1.26px; */
+/*     text-align: center; */
+/*     color: #171717; */
+/* } */
 
 
 /* /blog */
